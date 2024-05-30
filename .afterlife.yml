@@ -1,0 +1,6 @@
+install: ~
+build: ~
+
+deploy:
+  type: kubernetes
+  image_name: quartz
