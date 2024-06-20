@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "dev-docs",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "es-ES",
+    baseUrl: "mifiel.dev/sites/dev-docs",
+    ignorePatterns: ["private", "templates", ".obsidian", "buildspec.yml"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
